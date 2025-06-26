@@ -9,17 +9,19 @@
     <script src="./scripts/register.js" defer></script>
 </head>
 
-<body>
-    <h1 class="text-4xl font-bold text-center">Register A New User </h1>
-    <form id="register-form" class="flex flex-col justify-around items-center mt-10 h-[50vh] ">
-        <input type="email" placeholder="Enter your email" name="email" class="border-2 p-2 w-[50%]  cursor-pointer">
-        <input type="text" placeholder="Enter your name" name="name" class="border-2 p-2 w-[50%] cursor-pointer">
+<body class="bg-blue-200">
+   <div class="justify-center items-center shadow-md bg-white w-[60%] mx-auto mt-10 gap-8 ">
+     <h1 class="text-4xl font-bold text-center pt-8">Register A New User </h1>
+    <form id="register-form" class="flex flex-col justify-around items-center mt-10 h-[70vh] ">
+        <input type="email" placeholder="Enter your email" name="email" class="border-2 p-2 m-4 w-[80%]  cursor-pointer">
+        <input type="text" placeholder="Enter your name" name="name" class="border-2 p-2 m-2 w-[80%] cursor-pointer">
         <input type="password" placeholder="Enter your password" name="password"
-            class="border-2 p-2 w-[50%] cursor-pointer">
-        <input type="text" placeholder="Enter your role" name="role" class="border-2 p-2 w-[50%] cursor-pointer">
-        <input type="text" placeholder="Enter your avatar" name="avatar" class="border-2 p-2 w-[50%]  cursor-pointer">
-        <button type="submit" id="register-btn" class="border-2 bg-blue-600 text-white p-3 w-[25%] ">REGISTER</button>
+            class="border-2 p-2 w-[80%] cursor-pointer">
+        <input type="text" placeholder="Enter your role" name="role" class="border-2 p-2 m-4 w-[80%] cursor-pointer">
+        <input type="text" placeholder="Enter your avatar" name="avatar" class="border-2 p-2 m-2 w-[80%]  cursor-pointer">
+        <button type="submit" id="register-btn" class="border-2 m-6 bg-blue-600 text-white p-3 w-[25%] ">REGISTER</button>
     </form>
+   </div>
 </body>
 
 </html>
